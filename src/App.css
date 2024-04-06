@@ -5,11 +5,10 @@
 }
 
 
-
 /*Animación líneas en el navbar.*/
 .navbar-nav .nav-link {
   position: relative;
-  font-size: 18px;
+  font-size: 22px;
   margin-right: 20px;
 }
 
@@ -44,4 +43,44 @@
 
 .boton:hover {
   background-color: #8b0000;
+}
+
+
+
+
+/*.image-fondo{
+  background-image: url('../public/pixel\ art\ fondo.jpg');
+  background-size: cover;
+  background-position: center;
+}*/
+
+
+
+
+
+
+.titulo-sobre-mi {
+  font-size: 3rem; /* Tamaño de fuente mucho más grande */
+}
+
+
+
+
+
+
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecnologia {
+  width: 50px; /* ajusta el tamaño según tus necesidades */
+  margin-right: 40px; /* añade margen entre las imágenes */
+  height: auto; /* Altura se ajusta automáticamente */
+  transition: transform 0.3s ease; /* Transición suave para la rotación */
+}
+
+.tecnologia:hover {
+  transform: scale(1.2) rotate(-20deg); /* Efecto de agrandamiento y rotación al hacer hover */
 }

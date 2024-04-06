@@ -1,10 +1,12 @@
 import React from 'react'
 import Inicio from './Inicio';
+import SobreMi from './SobreMi';
 
 const Main = () => {
     return (
         <div className="container py-4">
             <Inicio />
+            <SobreMi />
             <section>
                 <h2>Mis Proyectos</h2>
             </section>

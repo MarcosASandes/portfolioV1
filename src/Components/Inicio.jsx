@@ -1,10 +1,11 @@
 import React from 'react'
+import Typewriter from './Typewriter';
 
 const Inicio = () => {
     return (
-        <div className="bg-light p-5 text-center">
-            <h1 className="font-weight-bold display-4">¡Hola, me llamo Marcos!</h1>
-            <p className="font-italic lead">Bienvenido a mi portafolio</p>
+        <div className="bg-light p-5 text-center image-fondo">
+            <Typewriter text="¡Hola, me llamo Marcos!" option={1} />
+            <Typewriter text="Bienvenido a mi portafolio" option={2} />
             <a href="#proyectos" className="boton">Proyectos</a>
         </div>
     );
