@@ -25,7 +25,7 @@ const Cabezal = () => {
     }, []);
 
     return (
-        <header className="bg-dark text-light py-3">
+        <header className="bg-black text-white py-3">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <a className="navbar-brand" href="#">Marcos Sandes</a>
