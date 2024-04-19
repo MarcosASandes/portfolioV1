@@ -199,4 +199,60 @@
 
 
 
+/*Seccion SobreMi*/
+
+/* Estilos para las secciones */
+.sobre-mi section {
+  display: none; /* Oculta todas las secciones por defecto */
+}
+
+.sobre-mi section.activo {
+  display: block; /* Muestra la sección activa */
+}
+
+/* Estilos para los círculos 
+.circulos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circulo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.circulo.activo {
+  background-color: blue; 
+}*/
+
+.circulos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circulo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red; /* Color base rojo */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.circulo:hover {
+  background-color: darkred; /* Rojo más oscuro al hacer hover */
+}
+
+.active {
+  background-color: #f14949; /* Color morado rojizo para el estado activo */
+}
+
+
 

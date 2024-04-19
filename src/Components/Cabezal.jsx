@@ -38,7 +38,7 @@ const Cabezal = () => {
                                 <a className="nav-link" href="#">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Sobre mí</a>
+                                <a className="nav-link" href="#sobremi-section">Sobre mí</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Proyectos</a>
