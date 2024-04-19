@@ -72,6 +72,7 @@
 
 .tecnologias {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -79,7 +80,7 @@
 .tecnologia {
   width: 50px;
   /* ajusta el tamaño según tus necesidades */
-  margin-right: 40px;
+  margin: 20px;
   /* añade margen entre las imágenes */
   height: auto;
   /* Altura se ajusta automáticamente */
