@@ -23,43 +23,60 @@ const SobreMi = () => {
 
     useEffect(() => {
 
-        let pasado = `Desde mi infancia, la tecnología ha sido una pasión constante en mi vida. 
-        Mis primeros encuentros con el mundo digital se dieron a través del diseño gráfico y la edición de vídeos, 
-        lo que despertó en mí una profunda fascinación por el proceso de convertir ideas en realidades tangibles. 
-        Este interés me llevó a explorar el arte digital y electrónico durante un año en mi formación académica en Bellas Artes.
+        let pasado = (
+            <p>
+                Desde mi infancia, <strong>la tecnología ha sido una pasión constante en mi vida.</strong> 
+                Mis <em>primeros encuentros con el mundo digital</em> se dieron a través del <u>diseño gráfico</u> y la <u>edición de vídeos</u>, 
+                lo que despertó en mí una <strong>profunda fascinación por el proceso de convertir ideas en realidades tangibles</strong>. 
+                Este interés me llevó a explorar el <em>arte digital y electrónico</em> durante un año en mi formación académica en <em>Bellas Artes</em>.
+                <br/>
+
+                Durante ese tiempo, tuve mis primeros acercamientos a la <strong>programación con <em>Javascript</em></strong>, lo que despertó mi curiosidad
+                y me llevó a adentrarme más en el campo de la tecnología. 
+                Fue entonces cuando decidí seguir una carrera en <strong>Analista en Tecnologías de la Información en la <u>Universidad ORT</u></strong>.
+                <br/>
+
+                A lo largo de mi <em>trayectoria académica</em>, he cultivado diversas habilidades <strong>técnicas</strong> y <strong>blandas</strong>, 
+                siempre enfocado en mantener una ética de trabajo <u>rigurosa</u> y <u>organizada</u>. 
+                Estoy comprometido con la excelencia en todo lo que hago y estoy emocionado por seguir creciendo y 
+                aprendiendo en este apasionante mundo tecnológico.
+            </p>
+          );
         
-        Durante ese tiempo, tuve mis primeros acercamientos a la programación con Javascript, lo que despertó mi curiosidad
-        y me llevó a adentrarme más en el campo de la tecnología. 
-        Fue entonces cuando decidí seguir una carrera en Analista en Tecnologías de la Información en la Universidad ORT.
-        
-        A lo largo de mi trayectoria académica, he cultivado diversas habilidades técnicas y blandas, 
-        siempre enfocado en mantener una ética de trabajo rigurosa y organizada. 
-        Estoy comprometido con la excelencia en todo lo que hago y estoy emocionado por seguir creciendo y 
-        aprendiendo en este apasionante mundo tecnológico.`;
 
 
-        let presente = `Actualmente, me encuentro en la recta final de mi último semestre universitario, 
-        a punto de enfrentarme al proyecto final que marcará el cierre de esta etapa académica. 
-        Mientras tanto, estoy inmerso en el desarrollo de varios proyectos personales, con el objetivo de ampliar mis 
-        conocimientos y reforzar las habilidades que he adquirido hasta el momento.
-        
-        Además de mi enfoque en el ámbito técnico, estoy dedicando tiempo al estudio de metodologías ágiles. 
-        Aunque ya he completado un curso en este campo, mi objetivo actual es profundizar mis conocimientos 
-        y obtener una comprensión más sólida. Para mí, la ejecución de una idea es tan crucial como la idea misma, y estoy comprometido 
-        a aprender y crecer continuamente en este proceso.`;
+        let presente = (
+            <p>
+                Actualmente, me encuentro en la <em>recta final</em> de mi <strong>último semestre universitario</strong>, 
+                a punto de enfrentarme al <em><strong>proyecto final</strong> que marcará el cierre de esta etapa académica</em>. 
+                Mientras tanto, estoy inmerso en el <strong>desarrollo de varios proyectos personales</strong>, con el objetivo de <strong><u>ampliar mis 
+                conocimientos</u> y <u>reforzar las habilidades</u></strong> que he adquirido hasta el momento.
+                <br/>
+
+                Además de mi enfoque en el <strong>ámbito técnico</strong>, estoy dedicando tiempo al estudio de <strong>metodologías ágiles</strong>. 
+                Aunque ya he completado un curso en este campo, mi objetivo actual es profundizar mis conocimientos 
+                y obtener una comprensión más sólida. Para mí, <strong>la <em>ejecución de una idea</em> es tan crucial como la <em>idea misma</em></strong>, y estoy comprometido 
+                a aprender y crecer continuamente en este proceso.
+            </p>
+          );
 
 
-        let futuro = `Si bien el futuro es incierto, mantengo el deseo de un futuro en el que tanto mi desarrollo 
-        profesional como personal alcanzarán nuevas cotas de excelencia. En el ámbito técnico, aspiro a forjar 
-        una ética de trabajo sólida y distintiva, que refleje mi visión del mundo y con la cual me sienta profundamente orgulloso.
-        
-        En lo que respecta al backend, estoy decidido a sumergirme aún más en el vasto ecosistema de Microsoft, 
-        explorando cada faceta para dominarla por completo. Por otro lado, en el ámbito del frontend, 
-        me apasiona profundamente el uso de React y estoy comprometido a perfeccionar mis habilidades en esta tecnología líder. 
-        Además, como objetivo personal, albergo un gran interés en adentrarme en el fascinante mundo de ThreeJS 
-        y otras tecnologías afines, buscando expandir mis horizontes y explorar nuevas posibilidades creativas.`;
 
 
+        let futuro = (
+            <p>
+                Si bien el futuro es incierto, mantengo el deseo de un futuro en el que tanto mi desarrollo 
+                <em>profesional</em> como <em>personal</em> alcanzarán nuevas cotas de excelencia. En el <u>ámbito técnico</u>, aspiro a <strong>forjar 
+                una ética de trabajo <em>sólida y distintiva</em></strong>, que refleje mi visión del mundo y con la cual me sienta profundamente orgulloso.
+                <br/>
+
+                En lo que respecta al <em>backend</em>, estoy decidido a sumergirme aún más en el vasto <strong>ecosistema de Microsoft</strong>, 
+                explorando cada faceta para dominarla por completo. Por otro lado, en el ámbito del <em>frontend</em>, 
+                me apasiona profundamente el uso de <strong>React</strong> y estoy comprometido a perfeccionar mis habilidades en esta tecnología líder. 
+                Además, <em>como objetivo personal</em>, albergo un gran interés en adentrarme en el fascinante mundo de <strong>ThreeJS</strong> 
+                <em>y otras tecnologías afines</em>, buscando expandir mis horizontes y explorar nuevas posibilidades creativas.
+            </p>
+          );
 
 
         const textos = [pasado, presente, futuro];
