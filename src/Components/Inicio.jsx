@@ -29,16 +29,6 @@ const Inicio = () => {
             </div>
 
 
-            {/*           
-            <section className='subtitulo-inicio-section'>
-                <p className='subtitulo-inicio-section-text display-5'>Ponte <strong>cómodo/a,</strong> mi portafolio es tu portafolio.</p>
-            </section>
-
-            <section className='boton-inicio-section'>
-                <a href="#proyectos" className="boton">Proyectos</a>
-            </section>
-            */}
-
 
         </div>
     );

@@ -130,37 +130,6 @@
 }
 
 
-/*
-.subtitulo-inicio-section {
-  margin-top: 60px;
-  margin-left: 400px;
-  height: 200px;
-  width: 40%;
-  text-align: right;
-  position: relative;
-}
-
-.subtitulo-inicio-section-text {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 10px;
-  color: white;
-}
-
-.subtitulo-inicio-section-text strong {
-  background-color: white;
-  color: black;
-  border-radius: 10px;
-}
-
-
-.boton-inicio-section{
-  background-color: #8b0000;
-  text-align: left;
-}*/
-
-
 .subtitulo-inicio-general {
 
   width: 70%;
@@ -192,8 +161,8 @@
 }
 
 .boton{
-  font-size: 30px; /* Tamaño de fuente más grande */
-  padding: 20px 40px; /* Aumenta el espacio alrededor del texto */
+  font-size: 30px;
+  padding: 20px 40px; 
   border-radius: 10px;
 }
 
